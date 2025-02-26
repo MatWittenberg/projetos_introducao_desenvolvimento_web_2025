@@ -1,0 +1,21 @@
+body {
+    background-color: #FFFF;
+    color: #1A1A1A;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    text-align: center;
+}
+
+header img {
+    width: 300px;
+    height: 150px;
+}
+.livro {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
