@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+header {
+    background-color: #ecd509;
+    color: #000000;
+    text-align: center;
+    /*    box-sizing: border-box; */
+    padding: 2px;
+}
+
+header a,h1 {
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+.fotoprincipal img {
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.fotoprincipal a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.fotoprincipal h3 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+
+section img {
+    width: 100%;
+}
+
+section h1 {
+    text-align: center;
+    
+}
+
+.ingredientes {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.preparo {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+
+footer {
+    background-color: yellow;
+    padding: 20px;
+    color: yellow;
+    text-align: center;
+}
