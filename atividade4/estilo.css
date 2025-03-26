@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container{
+    padding: 8px;
+    border-radius: 1px;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+.tela{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5vh;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+}
+
+.tela:hover {
+    background-color: #F2F2F2;
+}
+
+.numeros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5vh 5vh 5vh 5vh;
+    gap: 8px;
+}
+
+.igual{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: 167.6px;
+}
+
+button{
+    width: 80px;
+    font-size: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px #0000004d;
+
+}
+
+button:hover{
+    background-color: #F2F2F2;
+}
