@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: grid;
+    grid-template-areas:
+        "lateral cabecalhohome cabecalhohome"
+        "lateral conteudocadastros conteudocadastros"
+        "lateral rodapehome rodapehome";
+    grid-template-columns: 200px auto auto;
+    grid-template-rows: auto 90vh;
+}
+
+
+.cabecalhohome {
+    background-color: #04C9F4;
+    color: #FFFFFF;
+    grid-area: cabecalhohome;
+    height: 45px;
+}
+
+.cabecalhohome p {
+    padding-left: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.lateral{
+    background-color: #D9D9D9;
+    grid-area: lateral;
+}
+
+
+.lateral ol{
+    color: #FFFFFF;
+    list-style: none;
+    text-align: center;
+    background-color: #04C9F4;
+}
+
+.lateral section li{
+    background-color: #D9D9D9;
+}
+
+.lateral li {
+    padding: 10px;
+    border-bottom: solid 1px #FFFFFF;
+}
+
+.lateral a{
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;  
+}
+
+
+.rodapehome {
+    background-color: #FFFFFF;
+    color: #04C9F4;
+    grid-area: rodapehome;
+    height: 76%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cadastro{
+    width: 600px;
+    padding: 20px;
+    height: 280px;
+    margin: 20px auto auto 20px;
+    color: #FFFFFF;
+    background-color: #D9D9D9;
+    border-radius: 4px;
+
+}
+
+.telagrande{
+    width: 100%;
+    height: 50px;
+    margin: 5px 1px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.telapequena{
+    width: 30%;
+    height: 50px;
+    border: none;
+}
+
+.telamedia{
+    margin-left: -170px;
+    width: 450px;
+    height: 50px;
+    border: none;
+}
+
+.estado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.estadoc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.municipio{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.telagrande1{
+    width: 560px;
+    height: 50px;
+    margin: 5px 1px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.botoes2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    padding-top: 29px;
+}
+
+.cadastro3{
+    width: 600px;
+    padding: 20px;
+    height: 130px;
+    margin: 20px auto auto 20px;
+    color: #FFFFFF;
+    background-color: #D9D9D9;
+    border-radius: 4px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    padding-top: 35px;
+}
+
+
+.botao{
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.AZUL {
+    background-color: #04C9F4;
+}
+
+.VERMELHO{
+    background-color: #F40404;
+}
+
+.BRANCO{
+    color: #04C9F4;
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    body {
+        grid-template-areas:
+            "cabecalhohome cabecalhohome cabecalhohome"
+            "lateral lateral lateral"
+            "conteudohome conteudohome conteudohome"
+            "rodapehome rodapehome rodapehome";
+
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto 84vh auto;
+    }
+
+
+    .cabecalhohome {
+        width: 101vw;
+    }
+
+    .lateral ol {
+        display: flex;
+        justify-content: center;
+        background-color: #FFFFFF;
+    }
+
+    .lateral li {
+        border: solid 1px #FFFFFF;
+        background-color: #04C9F4;
+        font-size: 10.5px;
+    }
+
+    .lateral section{
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+
+    .lateral section li{
+        width: 75px;
+        background-color: #E7E7E7;
+
+    }
+
+    .lateral nav a {
+        color: #FFFFFF;
+    }
+
+    .cadastro{
+        padding: auto;
+        margin: 20px 20px;
+        width: 90vw;
+    }
+
+    .cadastro3{
+        padding: auto;
+        margin: 20px 20px;
+        width: 90vw;
+    }
+
+    .telapequena{
+        width: 40%;
+        height: 50px;
+        border: none;
+    }
+    
+
+    .telamedia{
+        margin-left: -80px;
+        width: 150%;
+        height: 50px;
+        border: none;
+    }
+
+    .telagrande1{
+        width: 200%;
+        height: 50px;
+        margin: 5px 1px;
+    }
+
+    .botoes{
+        margin-top: 5px;
+        padding-top: 35px;
+    }
+    
+    
+    .botao{
+        width: 100px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+
+    .BRANCO{
+        color: #04C9F4;
+        background-color: #FFFFFF;
+    }
+
+    
+}
