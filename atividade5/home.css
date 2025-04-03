@@ -57,6 +57,10 @@ body {
     cursor: pointer;  
 }
 
+.lateral a:hover{
+color: black;
+}
+
 .conteudohome {
     background-color: #E7E7E7;
     grid-area: conteudohome;
