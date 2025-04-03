@@ -116,6 +116,9 @@ body {
     width: 50%;
 }
 
+.municipio p{
+    margin-left: -170px;
+}
 
 .telagrande1{
     width: 560px;
