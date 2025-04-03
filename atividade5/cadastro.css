@@ -57,6 +57,9 @@ body {
     cursor: pointer;  
 }
 
+.lateral a:hover{
+color: black;
+}
 
 .rodapehome {
     background-color: #FFFFFF;
