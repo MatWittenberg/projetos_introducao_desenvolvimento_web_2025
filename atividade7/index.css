@@ -1,0 +1,42 @@
+body {
+      font-family: Arial;
+      background: #f3f3f3;
+      display: flex;
+      justify-content: center;
+      padding-top: 40px;
+    }
+
+    #container {
+      background: #ffffff;
+      padding: 30px 50px 30px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+      width: 400px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .errado {
+      color: #ff0000;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .input-errado {
+      border-color: #ff0000;
+    }
+
+    button {
+      background-color: #28a745;
+      color: #ffffff;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
