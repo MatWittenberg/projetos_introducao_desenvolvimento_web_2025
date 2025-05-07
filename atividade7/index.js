@@ -2,7 +2,6 @@ function validarFormulario() {
     let nomeInput = document.getElementById("nome");
     let emailInput = document.getElementById("email");
     let mensagemInput = document.getElementById("mensagem");
-    let mensagemSucesso = document.getElementById("mensagemSucesso");
 
     let nome = nomeInput.value;
     let email = emailInput.value;
@@ -11,6 +10,7 @@ function validarFormulario() {
     let nomeFalha = document.getElementById("nomeFalha");
     let emailFalha = document.getElementById("emailFalha");
     let mensagemFalha = document.getElementById("mensagemFalha");
+    let mensagemSucesso = document.getElementById("mensagemSucesso");
 
     let isValid = true;
 
