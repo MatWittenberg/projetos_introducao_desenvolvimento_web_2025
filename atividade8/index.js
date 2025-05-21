@@ -29,7 +29,7 @@ document.getElementById('calculadoraFitness').addEventListener('submit', functio
     const gastoCaminhada = 0.5 * peso * distancia;
   
 
-    const resultados = `
+    const resultadoCalculado = `
       <h2>Resultados para ${nome}</h2>
       <p><strong>TMB:</strong> ${tmb.toFixed(2)} kcal/dia</p>
       <p><strong>Gasto calórico total diário:</strong> ${gastoTotal.toFixed(2)} kcal</p>
@@ -38,6 +38,6 @@ document.getElementById('calculadoraFitness').addEventListener('submit', functio
       <p><strong>Gasto calórico em ${distancia} km de caminhada:</strong> ${gastoCaminhada.toFixed(2)} kcal</p>
     `;
   
-    document.getElementById('resultadoCalculado').innerHTML = resultados;
+    document.getElementById('resultadoCalculado').innerHTML = resultadoCalculado;
   });
   
